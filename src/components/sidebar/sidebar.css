@@ -1,0 +1,98 @@
+.sidebar-main-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   justify-content: space-between;
+}
+@media screen and (min-width:768px)  {
+   .sidebar-main-container{
+     width: 220px;   
+   }
+ }
+ .logo-and-name{
+   margin: 0px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Courier, monospace;
+   margin-bottom:20px;
+ }
+ .input-field-container{
+   display: flex;
+   align-items: center;
+   padding: 5px;
+   /* border: 2px solid rgb(161, 161, 161); */
+   background-color: rgb(218, 238, 255);
+   border-radius: 4px;
+   margin-bottom: 20px;
+ }
+ .search-logo{
+   margin: 0px;
+   margin-right: 10px;
+ }
+ .search-input{
+   background-color: transparent;
+   border: none;
+   outline: none;
+ }
+ .water-logo{
+   margin-right: 6px;
+ }
+ .sidebar-card-containers{
+   display: flex;
+   align-items: center;
+   background-color: aliceblue;
+   padding: 10px;
+   border-radius: 15px;
+   margin-bottom: 10px;
+ }
+ .sidebar-card-logo{
+   margin-right: 10px;
+ }
+ .active-card{
+   color: rgb(86, 86, 255);
+ }
+ .horizontal-line {
+   width: 100%;
+   height: 2px;
+   background-color: #8e8e8e; 
+   margin: 10px 0; 
+   border-radius: 10px;
+   margin-bottom: 20px;
+ }
+ .sidebar-no-active-card-containers{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   border-radius: 15px;
+   margin-bottom: 10px;
+   color: #464646;
+   cursor: pointer;
+ }
+ .sidebar-no-active-card-containers:hover{
+   background-color: aliceblue;
+   color: rgb(86, 86, 255);
+ }
+ .profile-section{
+   display: flex;
+   align-items: center;
+   background-color: aliceblue;
+   padding: 10px;
+   border-radius: 10px;
+ }
+ .profile-photo{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+ }
+ .name-of-the-user{
+   margin: 0px;
+   font-size: 15px;
+ }
+ .store-of-the-user{
+   margin: 0px;
+   font-size: 15px;
+   font-weight: 500;
+   color: #6f6f6f;
+ }

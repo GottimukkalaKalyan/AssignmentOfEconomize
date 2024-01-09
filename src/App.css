@@ -1,0 +1,11 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (min-width:768px)  {
+  .main-container{
+    flex-direction: row;
+  }
+}
